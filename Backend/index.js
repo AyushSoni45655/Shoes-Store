@@ -35,8 +35,7 @@ app.use(cors({
   credentials: true
 }));
 
-// 🔥 VERY IMPORTANT (preflight fix)
-app.options("/*", cors());
+
 
 
 // firstRoute
