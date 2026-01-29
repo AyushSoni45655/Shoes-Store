@@ -7,7 +7,6 @@ import { clearWishListMsg } from '../redux-store/slices/wishlistSlice';
 import { toggleWishlist } from '../redux-store/slices/wishlistSlice';
 import {toast} from 'react-hot-toast';
 import { useEffect } from 'react';
-import { isWhitelisted } from 'validator';
 import { getWishlists } from '../redux-store/slices/wishlistSlice';
 const Card = ({ product }) => {
   const dispatch = useDispatch();
