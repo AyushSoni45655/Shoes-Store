@@ -36,7 +36,7 @@ app.use(cors({
 }));
 
 // 🔥 VERY IMPORTANT (preflight fix)
-app.options("*", cors());
+app.options("/*", cors());
 
 
 // firstRoute
