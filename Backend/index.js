@@ -21,6 +21,7 @@ const allowUser = [
 process.env.FRONTEND_URL,
 process.env.ADMIN_URL
 ]
+
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowUser.includes(origin)) {
@@ -29,9 +30,13 @@ app.use(cors({
       callback(new Error("Not allowed by CORS"));
     }
   },
-  methods: ['GET','POST','PUT','DELETE','PATCH'],
+  methods: ['GET','POST','PUT','DELETE','PATCH','OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
+
+// 🔥 VERY IMPORTANT (preflight fix)
+app.options("*", cors());
 
 
 // firstRoute
