@@ -1,0 +1,19 @@
+body{
+  user-select: none;
+  background-color: #F8FAFC;
+}
+h1 ,h2,h3,h4{
+  color: #0F172A
+}
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+h5,h6.p{
+  color: #475569
+}
+button{
+  background-color: #F97316;
+  color: #FFFFFF
+}
+/* tailwind css here */
+@import "tailwindcss";
