@@ -19,7 +19,9 @@ app.use(express.json());
 // cors commection
 const allowUser = [
 process.env.FRONTEND_URL,
-process.env.ADMIN_URL
+process.env.ADMIN_URL,
+'https://shoes-store-admin.onrender.com/signin',
+'https://shoes-store-frontend-88sh.onrender.com'
 ]
 
 app.use(cors({
