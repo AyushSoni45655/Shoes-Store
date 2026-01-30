@@ -20,23 +20,26 @@ app.use(express.json());
 const allowUser = [
 process.env.FRONTEND_URL,
 process.env.ADMIN_URL,
-'https://shoes-store-admin.onrender.com/signin',
+'https://shoes-store-admin.onrender.com',
 'https://shoes-store-frontend-88sh.onrender.com'
 ]
 
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowUser.includes(origin)) {
+  origin: (origin, callback) => {
+    console.log("Request Origin 👉", origin);
+
+    if (!origin) return callback(null, true);
+
+    if (allowUser.includes(origin)) {
       callback(null, true);
     } else {
-      callback(new Error("Not allowed by CORS"));
+      callback(new Error("CORS not allowed"));
     }
   },
-  methods: ['GET','POST','PUT','DELETE','PATCH','OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
 }));
-
 
 
 
