@@ -6,8 +6,14 @@ A full‑stack Shoes Store E‑commerce application built using MERN stack with 
 Frontend (User Panel): https://shoes-store-frontend-88sh.onrender.com
 
                       ||   screenshots ||
-
+ || HOME PAGE ||
 ![User Home](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZr7cqtazwtDkSY3l2BsFLYuzcJlRwi6jnL8WYZXsrrIEMVeyy76k34b4Nt52blLzKlhfLgYqYpq52nJQOQTndjMPannDsvxBBeImSGnilUbB9txF1pW-PL99LnbcJ9qYIiMsTLjl_VyvNqThZ710xydgfqmkOWNl4lwffszZC-cuMb0KiRw3j62WfaMBc/s1878/Screenshot%202026-01-30%20080813.png)       
+
+ || PROFILE PAGE ||
+![User Home](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqfAjednaEoEXNZ0cB8p_cHU7yzov0infgwFsQ6BgYDSB6CgLhFwwZyVulH7Cy0WWi16DquuLWZCWoijKeCWgW2JFz-bu6yZ56h83deR_o_OXYEWSu0fNuqjj7WeHfPzHPQGd54foySEuFM2ngVslt89pCFzLj5jHHeyQYmKpve3LyM4j-lCbl0k20vZ6k/s1870/Screenshot%202026-01-30%20080938.png)    
+
+   || WISHLIST PAGE  ||
+![User Home](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge007kxRG6fVf6JKWOGhlV356Ns6m225a0uZ_i0seGipg1QTj3KEC3D2NDQhjVgOvktzPpy9odnopEmvq0UjtCqA_CpyXsoPdnRjbbXefyHKQK-4hQViWgsuqHdIincWLFzAdNygS_vh0ZMs6Q_S15sJKuO13Ow0Sa7UC5BiiwceUQQGBkV-QV1DRiNYao/s1888/Screenshot%202026-01-30%20080840.png)    
 🧱 Tech Stack
 Frontend (Admin + User)
 
